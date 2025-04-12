@@ -24,6 +24,7 @@ import TopicQuizzes from "./screens/TopicQuizzes"
 import SavedItems from "./screens/SavedItems"
 import ProgressScreen from "./screens/ProgressScreen"
 
+import ProfileScreen from "./screens/ProfileScreen"
 
 const Stack = createNativeStackNavigator()
 
@@ -54,7 +55,7 @@ export default function App() {
 <Stack.Screen name="TopicQuizzes" component={TopicQuizzes} />
 <Stack.Screen name="SavedItems" component={SavedItems} />
 <Stack.Screen name="Progress" component={ProgressScreen} />
-
+<Stack.Screen name="Profile" component={ProfileScreen} />
         </Stack.Navigator>
       </NavigationContainer>
 

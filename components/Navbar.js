@@ -54,7 +54,7 @@ export function NavBar({showOverlay}) {
 
         <TouchableOpacity 
           style={styles.navItem}
-          onPress={() => navigation.navigate("Progress")}
+          onPress={() => navigation.navigate("Profile")}
         >
           <Feather name="user" size={24} color={route.name === "Profile" ? "white" : "rgba(255,255,255,0.6)"} />
           <Text style={[styles.navText, route.name === "Profile" && styles.navActive]}>Profile</Text>
